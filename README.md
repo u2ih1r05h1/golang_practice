@@ -1,12 +1,19 @@
 # golang_practice
 
 ## build
-go build foo.go
+```
+$ go build foo.go
+```
 
 ## run
-go run foo.go
+```
+$ go run foo.go
+```
 
 ## refactoring
-gofmt foo.go
+```
+$ gofmt foo.go
 
-go fmt <=> gofmt -l -w 
+go fmt <=> gofmt -l -w
+```
+
