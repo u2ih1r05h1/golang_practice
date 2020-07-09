@@ -9,6 +9,10 @@ $ go build foo.go
 ```
 $ go run foo.go
 ```
+or
+```
+$ ./foo
+```
 
 ## refactoring
 ```
