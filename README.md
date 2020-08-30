@@ -21,3 +21,7 @@ $ gofmt foo.go
 go fmt <=> gofmt -l -w
 ```
 
+## cannot find package
+```
+go get -u bar/foo/bar/foo
+```
