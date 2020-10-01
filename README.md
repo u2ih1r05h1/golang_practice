@@ -14,6 +14,12 @@ or
 $ ./foo
 ```
 
+## clean
+
+```
+$ go clean
+```
+
 ## refactoring
 ```
 $ gofmt foo.go
