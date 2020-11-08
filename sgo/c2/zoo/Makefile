@@ -11,4 +11,4 @@ build_main:
 	$(GOBUILD) main.go
 
 run:
-	$(GORUN) main.go
+	$(GORUN) *.go
