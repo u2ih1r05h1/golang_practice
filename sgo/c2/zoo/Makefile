@@ -1,6 +1,7 @@
 GOCMD=go
 GOBUILD=$(GOCMD) build
 GORUN=$(GOCMD) run
+GOTEST=$(GOCMD) test
 
 all: build
 
@@ -12,3 +13,6 @@ build_main:
 
 run:
 	$(GORUN) *.go
+
+test:
+	$(GOTEST) -v ./animals
