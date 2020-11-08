@@ -17,9 +17,12 @@ $ sudo mv go /usr/local/go1.15.4
 $ sudo ln -s /usr/local/go1.15.4 /usr/local/go
 $ /usr/local/go/bin/go version
 $ cp -i .profile .profile.org
-$ echo "PATH=\"/usr/local/go/bin:\$PATH\""
-$ echo "export PATH"
+$ echo "PATH=\"/usr/local/go/bin:\$PATH\"" >> .profile
+$ echo "export PATH" >> .profile
 $ go version
+$ mkdir ~/go
+$ echo "GOPATH=\"\$HOME/go\""
+$ echo "export GOPATH"
 ```
 
 ## build
