@@ -5,13 +5,21 @@
 Version 1.15.4 or others on Ubuntu 20.04 LTS
 
 ```
-sudo apt install golang
+$ sudo apt install golang
 ```
 
 or
 
 ```
-wget https://golang.org/dl/go1.15.4.linux-amd64.tar.gz
+$ wget https://golang.org/dl/go1.15.4.linux-amd64.tar.gz
+$ tar xf go1.15.4.linux-amd64.tar.gz
+$ sudo mv go /usr/local/go1.15.4
+$ sudo ln -s /usr/local/go1.15.4 /usr/local/go
+$ /usr/local/go/bin/go version
+$ cp -i .profile .profile.org
+$ echo "PATH=\"/usr/local/go/bin:\$PATH\""
+$ echo "export PATH"
+$ go version
 ```
 
 ## build
