@@ -26,6 +26,12 @@ $ echo "export GOPATH"
 $ env | grep GOPATH
 ```
 
+### gocode
+
+```
+$ go get github.com/nsf/gocode
+```
+
 ## build
 ```
 $ go build foo.go
