@@ -2,7 +2,7 @@
 
 ## env
 
-on Ubuntu 20.04 LTS
+Version 1.15.4 or others on Ubuntu 20.04 LTS
 
 ```
 sudo apt install golang
