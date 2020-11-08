@@ -1,5 +1,19 @@
 # golang_practice
 
+## env
+
+on Ubuntu 20.04 LTS
+
+```
+sudo apt install golang
+```
+
+or
+
+```
+wget https://golang.org/dl/go1.15.4.linux-amd64.tar.gz
+```
+
 ## build
 ```
 $ go build foo.go
