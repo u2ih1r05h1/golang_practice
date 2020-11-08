@@ -16,3 +16,4 @@ run:
 
 test:
 	$(GOTEST) -v ./animals
+	$(GOTEST) -v
