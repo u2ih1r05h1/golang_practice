@@ -23,6 +23,7 @@ $ go version
 $ mkdir ~/go
 $ echo "GOPATH=\"\$HOME/go\""
 $ echo "export GOPATH"
+$ env | grep GOPATH
 ```
 
 ## build
