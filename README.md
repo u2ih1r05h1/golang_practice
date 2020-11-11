@@ -21,8 +21,8 @@ $ echo "PATH=\"/usr/local/go/bin:\$PATH\"" >> .profile
 $ echo "export PATH" >> .profile
 $ go version
 $ mkdir ~/go
-$ echo "GOPATH=\"\$HOME/go\""
-$ echo "export GOPATH"
+$ echo "GOPATH=\"\$HOME/go\"" >> .profile
+$ echo "export GOPATH" >> .profile
 $ env | grep GOPATH
 ```
 
