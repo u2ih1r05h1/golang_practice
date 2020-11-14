@@ -12,6 +12,8 @@ import (
     "fmt"
 )
 
+var n0 = 100
+
 func main() {
 
     var i int // comments
@@ -59,5 +61,70 @@ func main() {
     println("Hello, World!")
 
     println(1, 2, 3)
+
+    var n2 int
+    n2 = 1
+    fmt.Println(n2)
+
+    var x, y, z int
+    x, y, z = 1, 2, 3
+    fmt.Println(x, y, z)
+
+    var (
+        x1, y1 int
+        name string
+    )
+    x1, y1 = 4, 5
+    name = "gotaro"
+    fmt.Println(x1, y1, name)
+
+    var n3 int
+    n3 = 5
+    fmt.Println(n3)
+
+    var x2, y2 int
+    x2, y2 = 1, 2
+    fmt.Println(x2, y2)
+
+    i1 := 1
+    fmt.Println(i1)
+
+    b := true
+
+    i2 := 1
+
+    f := 3.14
+
+    s := "abc"
+
+    fmt.Println(b, i2, f, s)
+
+    n4 := one()
+    fmt.Println(n4)
+
+    var a1 int
+    a1 = 1
+    a1 = 2
+
+    b1 := 1
+    b1 = 2
+
+    fmt.Println(a1, b1)
+
+    var a2 = 1
+    fmt.Println(a2)
+
+    var (
+        n5 = 1
+        s1 = "string"
+        b2 = true
+    )
+    fmt.Println(n5, s1, b2)
+
+    n0 = n0 + 1
+    fmt.Printf("n0=%d\n", n0)
 }
 
+func one() int {
+    return 1
+}
