@@ -2,7 +2,7 @@
 
 ## env
 
-Version 1.15.4 or others on Ubuntu 20.04 LTS
+Installation version 1.15.4 or others on Ubuntu 20.04 LTS
 
 ```
 $ sudo apt install golang
@@ -26,18 +26,13 @@ $ echo "export GOPATH" >> .profile
 $ env | grep GOPATH
 ```
 
-### gocode
-
-```
-$ go get github.com/nsf/gocode
-```
-
 ## build
 ```
-$ go build foo.go
+$ go build -o foo foo.go
 ```
 
 ## run
+
 ```
 $ go run foo.go
 ```
@@ -53,6 +48,7 @@ $ go clean
 ```
 
 ## refactoring
+
 ```
 $ gofmt foo.go
 
@@ -60,6 +56,13 @@ go fmt <=> gofmt -l -w
 ```
 
 ## cannot find package
+
 ```
 go get -u bar/foo/bar/foo
+```
+
+## go binary symbols
+
+```
+readelf -s foo
 ```
