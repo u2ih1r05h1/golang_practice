@@ -303,6 +303,16 @@ func main() {
 
     fmt.Printf("%v\n", a13)
     fmt.Printf("%v\n", a14)
+
+    var x3 interface{}
+    fmt.Printf("%#v\n", x3)
+
+    x3 = 1
+    x3 = 3.14
+    x3 = '山'
+    x3 = "文字列"
+    x3 =[...]uint8{1, 2, 3, 4, 5}
+    fmt.Println(x3)
 }
 
 func one() int {
