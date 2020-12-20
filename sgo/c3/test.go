@@ -251,6 +251,58 @@ func main() {
     s5 := `\n
     \n`
     fmt.Println(s4, s5)
+
+    a3 := [5]int{1, 2, 3, 4, 5}
+    fmt.Printf("%v", a3)
+    fmt.Println("")
+    fmt.Println(a3[0], a3[1], a3[2], a3[3], a3[4])
+
+    a4 := [5]int{}
+    fmt.Println(a4)
+
+    a5 := [5]int{1, 2, 3}
+    fmt.Println(a5)
+
+    var a6 [5]int
+    fmt.Println(a6)
+
+    a7 := [5]int{}
+    fmt.Println(a7)
+
+    ia := [3]int{}
+    ua := [3]uint{}
+    ba := [3]bool{}
+    fa := [3]float64{}
+    ca := [3]complex128{}
+    ra := [3]rune{}
+    sa := [3]string{}
+    fmt.Println(ia, ua, ba, fa, ca, ra, sa)
+
+    a8 := [0]int{}
+    fmt.Println(a8)
+
+    a9  := [...]int{1, 2, 3}
+    a10 := [...]int{1, 2, 3, 4, 5}
+    a11 := [...]int{}
+    fmt.Println(a9, a10, a11)
+
+    a12 := [...]int{1, 2, 3}
+    a12[0] = 0
+    a12[2] = 0
+    fmt.Printf("%v\n", a12)
+
+    a13 := [3]int{1, 2, 3}
+    a14 := [3]int{4, 5, 6}
+
+    a13 = a14
+
+    fmt.Printf("%v\n", a13)
+
+    a13[0] = 0
+    a13[2] = 0
+
+    fmt.Printf("%v\n", a13)
+    fmt.Printf("%v\n", a14)
 }
 
 func one() int {
